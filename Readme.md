@@ -1,6 +1,5 @@
 It is a simple Post api, which take data as POST param. "data" param must contain json
 
-
 Project Setup:
     
     pipenv shell #open python shell
@@ -17,6 +16,9 @@ We have used three variable in settings file
     ENCRYPT_KEY => Secret key for encryption and decryption
     ENCRYPT => Enryping returning data
     DECRYPT => Decrypt data send in post
+
+
+On the basis of above variables I am updating middleware. Used middleware to encrypt and decrypt responses and requests.
 
 Test1:
 
